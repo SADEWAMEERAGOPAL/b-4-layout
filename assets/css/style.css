@@ -1,0 +1,156 @@
+.MainHeadear .navbar-brand{
+  width: 150px;
+}
+
+.MainHeadear .navbar-brand img{
+  width: 100%;
+}
+
+.MainHeadear .navbar-dark .navbar-nav .nav-item .nav-link{
+   color: #fff;
+   text-transform: uppercase;
+}
+
+.MainHeadear .navbar-dark .navbar-nav .active>.nav-link:is(:hover, :active, :focus){
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+
+.MainHeadear .navbar-dark .navbar-nav .nav-link:is(:hover, :active, :focus){
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+/*===========header-section close===========*/
+
+/*_______________carsual-section start________________*/
+
+.MainCarsoul .carousel-item{
+  height: 450px;
+}
+
+.MainCarsoul .carousel-item img{
+  height: 100%;
+  object-fit: cover;
+}
+
+.MainCarsoul .carousel-caption{
+  bottom: auto;
+  top: 25%;
+}
+/*_______________carsual-section end________________*/
+
+
+
+/*---------laptopSection start----------*/
+
+.paralaxSection{
+  background-image: linear-gradient(
+     rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)), 
+      url(../img/bging1.jpg);
+
+}
+
+.paralax{
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+ 
+}
+/*-------------laptopSection end---------------------*/
+
+
+.playbtn{
+  background-image: linear-gradient(
+   rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)), 
+      url(../img/secondbgimg.jpg);
+}
+
+/*__________________gallary-section-start____________________*/
+
+/*__________________gallary-section-end____________________*/
+
+
+.footer{
+  background-color: #000;
+}
+
+
+ .owltestimonials .item img{
+   border-radius: 50%;
+   width: 80%;
+   border: 3px solid #fff;
+   margin: 0 auto 15px;
+ }
+
+ .owltestimonials.owl-theme .owl-dots .owl-dot.active span, .owltestimonials.owl-theme .owl-dots .owl-dot:hover span {
+    background: #000;
+}
+
+ #owltestimonials .owl-nav{
+  position: absolute;
+  top: 30%;
+  left: -3%;
+  width: 106%;
+  display: flex;
+  justify-content: space-between;
+
+
+ }
+
+ .owl-theme .owl-nav [class*=owl-]:hover{
+  background-color: transparent;
+ }
+
+ /*____________________________owltestimonials section end__________________________*/
+
+  .servicesplan .card .list-group-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .servicesplan .card .list-group-item span:nth-child(2){
+     margin-left: 25px;
+ }
+
+ .accordiomSection .btn-link{
+  color: #000;
+  text-decoration: none;
+}
+
+ .accordiomSection .btn-link:is(:hover, :active, :focus){
+  color: #000;
+  text-decoration: none;
+}
+ /*------------------------services section end--------------------------*/
+
+
+ .formSection h4{
+  text-transform: capitalize;
+ }
+
+ .StaffSection img{
+  border: 4px solid white;
+ }
+
+/* responsive*/
+ @media all and (max-width:768px){
+  .laptopsection .laptonInfo{
+     text-align: center;
+  }
+
+
+.newsletter .homeform .col-auto{
+    width: 100%;
+}
+ 
+
+  .StaffSection .staffinfo{
+    margin-bottom: 30px;
+  }
+  
+ }
